@@ -1,5 +1,27 @@
+// /data/quizzes.js
 export const quizzes = [
-  { id: '1', category: 'science', title: 'Basic Physics', description: 'Test your physics basics.' },
-  { id: '2', category: 'science', title: 'Chemistry 101', description: 'Intro to chemistry.' },
-  { id: '3', category: 'math', title: 'Algebra Basics', description: 'Solve simple algebra problems.' },
+  {
+    id: 'quiz1',
+    title: 'World History Basics',
+    description: 'Test your knowledge of world history.',
+    category: 'history',
+  },
+  {
+    id: 'quiz2',
+    title: 'Physics Fundamentals',
+    description: 'Basic questions on physics.',
+    category: 'science',
+  },
+  {
+    id: 'quiz3',
+    title: 'Algebra Essentials',
+    description: 'Brush up on your algebra skills.',
+    category: 'math',
+  },
+  {
+    id: 'quiz4',
+    title: 'JavaScript Basics',
+    description: 'A simple programming quiz on JavaScript fundamentals.',
+    category: 'programming',
+  },
 ];
